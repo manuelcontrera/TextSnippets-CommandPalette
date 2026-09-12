@@ -1,4 +1,8 @@
-﻿# Text Snippets for Microsoft PowerToys Command Palette
+<p align="center">
+  <img src="assets/logo.png" alt="Text Snippets Logo" width="120" height="120" />
+</p>
+
+# Text Snippets for Microsoft PowerToys Command Palette
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%20Windows%2010-0078D4?logo=windows)](https://www.microsoft.com/windows)
@@ -9,6 +13,16 @@
 > **Raycast-style text snippets with automatic inline expansion, interactive multi-choice pickers, and a visual WinUI 3 Fluent editor for Microsoft PowerToys Command Palette.**
 >
 > *Snippets de texto estilo Raycast con auto-expansión en tiempo real, menú selector de opciones múltiples y editor visual Fluent WinUI 3 para Command Palette.*
+
+---
+
+## 🎬 Demo / Video de Demostración
+
+https://github.com/manuelcontrera/TextSnippets-CommandPalette/raw/main/assets/how-to-use.mp4
+
+> 💡 **Demo video:** See Text Snippets in action — automatic inline text expansion, interactive multi-option picker, and the WinUI 3 visual editor.
+>
+> 📁 *Video file:* [assets/how-to-use.mp4](assets/how-to-use.mp4)
 
 ---
 
