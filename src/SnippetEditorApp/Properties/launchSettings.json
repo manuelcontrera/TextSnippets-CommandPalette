@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SnippetEditorApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SnippetEditorApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

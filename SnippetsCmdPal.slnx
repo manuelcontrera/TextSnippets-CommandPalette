@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SnippetsCmdPal/SnippetsCmdPal.csproj" />
+    <Project Path="src/SnippetEditorApp/SnippetEditorApp.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,43 @@
+﻿# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+*.userosscache
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Gg]enerated [Ff]iles/
+x64/
+x86/
+ARM64/
+
+# Windows App SDK / MSIX / AppX Packaging
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.msix
+*.appx
+*.msixbundle
+*.appxbundle
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Local logs & scratch
+*.log
+crash.log
+*.tmp
+*.bak
