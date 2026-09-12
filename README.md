@@ -16,16 +16,14 @@
 
 ---
 
-<div align="center">
-  <video src="https://github.com/manuelcontrera/TextSnippets-CommandPalette/raw/main/assets/how-to-use.mp4" controls="controls" width="100%" style="max-width: 850px; border-radius: 8px;">
-    <a href="https://github.com/manuelcontrera/TextSnippets-CommandPalette/raw/main/assets/how-to-use.mp4">
-      <img src="assets/demo.gif" alt="Text Snippets Demo" width="100%" style="max-width: 850px; border-radius: 8px;" />
-    </a>
-  </video>
-</div>
+<p align="center">
+  <a href="assets/how-to-use.mp4">
+    <img src="assets/demo.gif" alt="Text Snippets Demo - How to Use" width="100%" style="max-width: 850px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);" />
+  </a>
+</p>
 
 <p align="center">
-  <em>▶️ Click play above to watch the walkthrough, or download <a href="assets/how-to-use.mp4">How to use.mp4</a> directly.</em>
+  <em>🎬 <strong>Demo en acción (reproducción continua).</strong> Haz clic en la animación o <a href="assets/how-to-use.mp4">aquí para abrir/descargar el video MP4 en alta resolución</a>.</em>
 </p>
 
 ---
