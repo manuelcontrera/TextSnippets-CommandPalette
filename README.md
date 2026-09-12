@@ -16,13 +16,17 @@
 
 ---
 
-## 🎬 Demo / Video de Demostración
+<div align="center">
+  <video src="https://github.com/manuelcontrera/TextSnippets-CommandPalette/raw/main/assets/how-to-use.mp4" controls="controls" width="100%" style="max-width: 850px; border-radius: 8px;">
+    <a href="https://github.com/manuelcontrera/TextSnippets-CommandPalette/raw/main/assets/how-to-use.mp4">
+      <img src="assets/demo.gif" alt="Text Snippets Demo" width="100%" style="max-width: 850px; border-radius: 8px;" />
+    </a>
+  </video>
+</div>
 
-https://github.com/manuelcontrera/TextSnippets-CommandPalette/raw/main/assets/how-to-use.mp4
-
-> 💡 **Demo video:** See Text Snippets in action — automatic inline text expansion, interactive multi-option picker, and the WinUI 3 visual editor.
->
-> 📁 *Video file:* [assets/how-to-use.mp4](assets/how-to-use.mp4)
+<p align="center">
+  <em>▶️ Click play above to watch the walkthrough, or download <a href="assets/how-to-use.mp4">How to use.mp4</a> directly.</em>
+</p>
 
 ---
 
