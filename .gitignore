@@ -1,4 +1,4 @@
-﻿# Visual Studio / Rider / VS Code
+# Visual Studio / Rider / VS Code
 .vs/
 .idea/
 .vscode/*
@@ -29,6 +29,8 @@ _pkginfo.txt
 *.appx
 *.msixbundle
 *.appxbundle
+dist/
+*.pfx
 
 # Windows files
 Thumbs.db

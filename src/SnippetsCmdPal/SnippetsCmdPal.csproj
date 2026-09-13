@@ -17,7 +17,7 @@
  
     <AppxPackageIdentityName>SnippetsCmdPal.Extension</AppxPackageIdentityName>
     <AppxPackagePublisher>CN=SnippetsCmdPalPublisher</AppxPackagePublisher>
-    <AppxPackageVersion>1.0.0.1</AppxPackageVersion>
+    <AppxPackageVersion>1.0.1.0</AppxPackageVersion>
     <ApplicationIcon>Assets\app.ico</ApplicationIcon>
     <PublishSingleFile>false</PublishSingleFile>
   </PropertyGroup>

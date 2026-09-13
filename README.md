@@ -121,6 +121,23 @@ TextSnippets-CommandPalette/
 
 ---
 
+## 📦 Installation
+
+### Option 1: Via Windows Package Manager (WinGet)
+```powershell
+winget install manuelcontrera.TextSnippets-CommandPalette
+```
+
+### Option 2: Pre-built MSIX Package
+1. Download the latest `.msix` from [Releases](https://github.com/manuelcontrera/TextSnippets-CommandPalette/releases).
+2. Install via WinGet locally:
+   ```powershell
+   winget install .\TextSnippets-CommandPalette-1.0.1.0-x64.msix
+   ```
+   *(Or double-click the `.msix` to install with Windows App Installer).*
+
+---
+
 ## 🚀 Building and Running Locally
 
 ### Prerequisites

@@ -327,7 +327,9 @@ public sealed class KeyboardHookService : IDisposable
         var layout = GetKeyboardLayout(threadId);
 
         var sb = new StringBuilder(4);
-        var res = ToUnicodeEx(vkCode, scanCode, keyState, sb, sb.Capacity, 0, layout);
+        // Bit 2 (0x04) prevents modifying the kernel dead-key state (Windows 10 1607+ / Windows 11),
+        // avoiding double accents/tildes (´´) in layouts like Latin American or Spanish.
+        var res = ToUnicodeEx(vkCode, scanCode, keyState, sb, sb.Capacity, 0x04, layout);
         if (res > 0 && sb.Length > 0)
         {
             return sb[0];

@@ -10,7 +10,7 @@
   <Identity
     Name="SnippetsCmdPal.Extension"
     Publisher="CN=SnippetsCmdPalPublisher"
-    Version="1.0.0.2" />
+    Version="1.0.1.0" />
 
   <Properties>
     <DisplayName>Text Snippets for Command Palette</DisplayName>
