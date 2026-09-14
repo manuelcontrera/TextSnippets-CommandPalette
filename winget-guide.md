@@ -35,6 +35,8 @@ wingetcreate new https://github.com/manuelcontrera/TextSnippets-CommandPalette/r
 
 ---
 
+---
+
 ## 🧪 Validating Manifests Locally
 
 You can validate these manifests at any time with:
@@ -42,3 +44,17 @@ You can validate these manifests at any time with:
 ```powershell
 winget validate --manifest winget/
 ```
+
+---
+
+## ⚠️ Lecciones Aprendidas de Validación en WinGet (msftbot)
+
+1. **`SignatureSha256`:**
+   En paquetes MSIX, Microsoft valida que `SignatureSha256` sea el SHA256 del archivo interno `AppxSignature.p7x` (NO el hash de la clave pública del certificado). El script `scripts/update-winget-manifest.ps1` ya extrae y calcula esto automáticamente.
+
+2. **Versión interna del MSIX:**
+   El `AppxManifest.xml` empaquetado dentro del MSIX debe coincidir exactamente con `PackageVersion` (ej. `Version="1.0.1.0"` en el MSIX para `PackageVersion: 1.0.1`). Asegúrate siempre de compilar (`scripts/build.ps1`) antes de empaquetar (`scripts/package-msix.ps1`).
+
+3. **Plataformas (`Platform`):**
+   Si el MSIX define `TargetDeviceFamily` para `Windows.Universal` y `Windows.Desktop`, el manifiesto debe declarar ambas en `Platform:`.
+
